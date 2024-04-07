@@ -47,6 +47,9 @@ print(f"---------------------------------")
 
 print(f"{famous[5].title()} is coming for dinner")
 
+total = (len(famous))
+print(f"The total number of guests are {total}")
+
 print(f"---------------------------------")
 print(f"\nThe table is not arriving on time")
 
