@@ -2,7 +2,6 @@ prompt = "\nWhat film do you want to see?"
 prompt += "\nEnter 'quit' to end the program. "
 
 active = True
-
 while True:
     topping = input(prompt)
 
@@ -10,4 +9,4 @@ while True:
         active = False
         
     else:
-        print(f"I'd love {topping.title()} on my pizza!")
+        print(f"I'd love {topping.title()}, it's a good film.!")
